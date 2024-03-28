@@ -17,7 +17,7 @@ export class Constants {
     
     // Test Image - Replace with image of your choice
     static imageUrl = "https://www.RedandoFord.com/images/Redando-Ford—Software-Developer-Burberry-x-Dolce-and-Gabanna.jpeg"
-
+    
     // Roast image prompt
     static roastImagePrompt = 'You are a comedian in a movie scene with the character in the image. ' +
     'Speaking in second person, crack jokes about the character in the image and the outfit in a `roast` style.'

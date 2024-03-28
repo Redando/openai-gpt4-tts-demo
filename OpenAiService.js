@@ -48,6 +48,21 @@ export class OpenAiService {
         console.log(dalleImageResponse)
         return dalleImageResponse
     }
+
+    static generateDalleImage = async (prompt) => {
+    
+        // Generate Dall-E Image
+        const dalleImageResponse = await openAi.images.generate({
+            prompt: prompt, // Image description
+            model: 'dall-e-3',
+            quality:'hd',
+            n:1,
+            size: '1024x1024'
+        })
+        // Print Dall-E Response
+        console.log(dalleImageResponse)
+        return dalleImageResponse
+    }
 }
 
 const requestOptions = (imageUrl, prompt) => {

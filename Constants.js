@@ -16,7 +16,7 @@ export class Constants {
     static voiceOptionShimmer = "shimmer"
     
     // Test Image - Replace with image of your choice
-    static imageUrl = "https://www.RedandoFord.com/images/Redando-Ford—Software-Developer-Burberry-x-Dolce-and-Gabanna.jpeg"
+    static imageUrl = "https://www.redandoford.com/images/Redando-Ford—Software-Developer-Moncler-x-Giuseppe.jpeg"
     
     // Roast image prompt
     static roastImagePrompt = 'You are a comedian in a movie scene with the character in the image. ' +
